@@ -1,0 +1,13 @@
+# Basic lints without extra packages (works offline).
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+  language:
+    strict-casts: true
+linter:
+  rules:
+    - prefer_const_constructors
+    - prefer_final_fields
+    - avoid_print
+    - use_build_context_synchronously
